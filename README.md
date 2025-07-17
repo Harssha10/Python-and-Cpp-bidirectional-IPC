@@ -7,14 +7,14 @@ Bidirectional Interprocess communication between python and C++ processes via sh
 * multihtreading for controlling input and reading data for each process.
 
 ## To run :
-* First run shm_cpp.cpp which creates the shared memory:
+* First run cpp_shm.cpp which creates the shared memory:
 ```
-g++ shm_cpp.cpp -o shm
+g++ cpp_shm.cpp -o shm
 ./shm
 ```
-* Then run shm_py.py
+* Then run py_shm.py
 ```
-Python3 shm_py.py
+Python3 py_shm.py
 ```
 
 
